@@ -45,11 +45,11 @@ public class PathfindingScreen implements Screen{
 	/**
 	 * beginning position of the agent
 	 */
-	private Vector2 firstPosition  = new Vector2(20, 20);
+	private Vector2 firstPosition  = new Vector2(50, 50);
 	/**
 	 * target position of the agent
 	 */
-	private Vector2 targetPosition = new Vector2(280, 280);
+	private Vector2 targetPosition = new Vector2(250, 250);
 	UnitGraph unitGraph = new UnitGraph();
 	GraphPath<Unit> path;
 	public PathfindingScreen(MyGdxGame game) {
