@@ -102,7 +102,6 @@ public class PathfindingScreen implements Screen{
 			
 		}
 		
-		System.out.println(Gdx.graphics.getFramesPerSecond());
 		shapeRenderer.end();
 	}
 
